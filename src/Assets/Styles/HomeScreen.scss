@@ -1,0 +1,78 @@
+.HomeScreen{
+    background: rgb(66, 116, 235);
+    
+}
+.home-info{
+    margin-left: 20px;
+}
+h2{
+    font-size: 32px;
+    color:white;
+    font-family: AvenirNext-DemiBold;
+}
+p{
+    color: #abc3fc;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 600;
+   
+}
+.info{
+    display: flex;
+}
+.info img{
+    width: 32px;
+    height: 32px;
+    margin-left:100px;
+}
+p{
+    color: rgb(187, 191, 201);
+}
+p span{
+    font-size: 25px;
+    color:white;
+}
+progress{
+    width: 320px;
+    height: 5px;
+    margin:0 0 15px 0;
+    border-radius: 5px;
+  }
+  progress[value]::-webkit-progress-bar{
+    background:  #3c64c7;
+    
+}  
+progress[value]::-webkit-progress-value{
+    background:  #ff5998;
+    
+}
+.main-frame{
+    border-radius: 40px 40px 0 0;
+    background-color:white;
+    padding: 20px;
+   
+    .sub-division{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        
+        .division-highlight{
+            font-size: 15px;
+            margin: 0 50px;
+        }
+        .division-highlight:hover{
+            font-weight: 700;
+            color:rgb(36, 40, 51);
+            border-bottom: 4px solid #5786f8;
+        }
+       
+    }
+
+    .cards-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:10px;
+        margin: 10px;
+       
+    }
+
+}

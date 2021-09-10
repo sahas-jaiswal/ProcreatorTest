@@ -1,0 +1,65 @@
+.Tab-flex{
+    display: flex;
+    position: fixed;
+    top:740px;
+    z-index: 20px;
+    width:100%;
+    background-color: white;
+    box-shadow: 1px -4px 26px -1px rgba(0,0,0,0.69);
+    align-items: center;
+        justify-content: center;
+    div{
+        margin: 10px 20px;
+        padding:5px;
+        background-color: transparent;
+        border-radius: 15px;
+        height: fit-content;
+        color:#959FBA;
+        
+    }
+    div:hover{
+       background-color: rgb(232, 239, 255);
+       color:#5786f8;
+    }
+    .active{
+        padding:5px;
+        border-radius: 15px;
+        background-color: rgb(232, 239, 255);
+        color:#5786f8;
+    }
+    i{
+        font-size: 20px;
+    }
+    .local{
+        content: url(../Images/local.png);
+        height: 20px;
+        width: 20px;
+
+    }
+    .local:hover{
+        content: url(../Images/localcolor.png);
+        height: 20px;
+        width: 20px;
+    }
+    .add{
+        content: url(../Images/add.png);
+    }
+    .add:hover{
+        content: url(../Images/addcolor.png);
+    }
+    .overlay{
+        color:violet;
+        top:600px;
+        border-radius: 50px 50px 0 0;
+    }
+    @media (max-width:417px) {
+        top:660px;
+    }
+    @media (max-width:380px) {
+        top:740px;
+    }
+    @media (max-width:360px) {
+        top:660px;
+    }
+}
+

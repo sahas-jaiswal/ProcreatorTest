@@ -1,0 +1,61 @@
+
+.label{
+    position: absolute;
+    top:610px;
+    left:150px;
+    color: #3c64c7;
+    font-family: AvenirNext-DemiBold;
+    font-size: 24px;
+    font-weight: 600;
+    height: 66px;
+    text-align: right;
+    width: 209px;
+    animation-name: labelAnimate;
+    animation-duration: 2s;
+}
+
+.tab{
+    position: absolute;
+    top:710px;
+    left:260px;
+    animation-name: tabAnimate;
+    animation-duration: 2s;
+}
+
+.vector{
+   width:100%;
+  animation-name: vectorAnimate;
+  animation-duration: 1.5s;
+}
+
+@keyframes vectorAnimate{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+@keyframes tabAnimate{
+    from{
+        opacity: 0;
+        left:350px
+    }
+
+    to{
+        opacity: 1;
+        left:260px;
+    }
+}
+@keyframes labelAnimate{
+    from{
+        opacity: 0;
+        top:580px;
+    }
+
+    to{
+        opacity: 1;
+        top:610px;
+    }
+}

@@ -1,0 +1,17 @@
+.search-div{
+ display:flex;
+ border-radius: 20px;
+ background-color: #edf1fa;
+ padding: 5px;
+ margin: 10px;
+ img{
+     height: 30px;
+     width: 30px;
+ }
+ input[type=text]{
+     border: none;
+     background-color: transparent;
+     width:100%;
+    outline: none;
+ }
+}

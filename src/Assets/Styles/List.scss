@@ -1,0 +1,30 @@
+.List{
+    display: flex;
+    align-items: center;
+    width:100%;
+    .icon{
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .optionIcon{
+        height: 20px;
+        margin-left:auto;
+        margin-right: 10px;
+    }
+   
+    div{
+        
+        
+        .title{
+            color: rgb(36, 40, 51);
+            font-family: AvenirNext-Medium;
+            font-size: 16px;
+            font-weight: 500;
+            height: 22px;
+            width: 168px;
+        }
+    }
+    
+}
